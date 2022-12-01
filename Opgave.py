@@ -5,8 +5,8 @@ BREDDE = 800
 HOEJDE = 600
 SPORLAENGDE = 500
 
-def linje(tid, stationaert_punkt, retningsvektor):
-    x_0, y_0 = stationaert_punkt
+def linje(tid, start_punkt, retningsvektor):
+    x_0, y_0 = start_punkt
     r_x, r_y = retningsvektor
     x = x_0 + r_x * tid
     y = y_0 + r_y * tid
